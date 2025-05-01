@@ -47,5 +47,5 @@ https://krishna-2001.github.io/senior-Independence/senior.html
 
 ## Assignment Information
 
-*   **Author/Project:** [Your Name/Project Name]
-*   **Unit:** Deakin University SITXXX - IT Innovation & Entrepreneurship
+*   **Author/Project:** [kolli krishna kumar/Helping seniors to live independently]
+*   **Unit:** Deakin University SIT726 - IT Innovation & Entrepreneurship
