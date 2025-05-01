@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Seniors to Live Independently</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; /* Added modern fallbacks */
+      margin: 0;
+      padding: 0;
+      background: #FFF8F0; /* Warm off-white background */
+      color: #4A403A; /* Dark warm brown text */
+      line-height: 1.6; /* Improved readability */
+      scroll-behavior: smooth;
+    }
+    header {
+      /* Warm gradient: Gold to Terracotta */
+      background: linear-gradient(135deg, #F5C56B, #E87A5D);
+      color: white;
+      padding: 3em 1em;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      margin: 0 0 0.2em 0; /* Added slight bottom margin */
+      font-size: 2.6em; /* Slightly adjusted size */
+      animation: slideIn 1s ease-out forwards;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* Subtle text shadow */
+    }
+    header p {
+      margin-top: 0;
+      margin-bottom: 0; /* Remove default bottom margin */
+      font-size: 1.3em;
+      opacity: 0;
+      animation: fadeInText 2s ease-in 1s forwards;
+    }
+    .hero {
+      text-align: center;
+      padding: 2em;
+      background: none; /* Remove background, let body show */
+      animation: zoomIn 1.5s ease-out forwards;
+    }
+    .hero img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px; /* Slightly less rounded */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.5s;
+    }
+    .hero img:hover {
+      transform: scale(1.03);
+    }
+    section {
+      padding: 2em;
+      max-width: 850px; /* Slightly narrower for better line length */
+      margin: auto;
+      background: white;
+      margin-top: 2em; /* Standardized top margin */
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(74, 64, 58, 0.08); /* Softer, warmer shadow */
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeSlideUp 1s ease-out forwards;
+    }
+    /* Add slight variation for better visual rhythm */
+    section:nth-of-type(odd) {
+        background-color: #FFFCF7; /* Slightly different warm white */
+    }
+    section h2 {
+        margin-top: 0; /* Remove default top margin for headings in sections */
+        color: #D96C4E; /* Use accent color for headings */
+    }
+    .cta a {
+      display: inline-block;
+      background: #E87A5D; /* Use primary warm color */
+      color: white;
+      padding: 0.8em 1.8em;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 1em;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    .cta a:hover {
+      background: #D16B4F; /* Slightly darker warm color on hover */
+      transform: scale(1.05);
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.2em;
+      margin-bottom: 0; /* Remove default bottom margin */
+    }
+    li { margin-bottom: 0.5em; } /* Add space between list items */
+    footer {
+      text-align: center;
+      padding: 1.5em;
+      border-top: 1px solid #DCD1C4; /* Subtle top border */
+      background: #EAE0D5; /* Warm light gray/beige */
+      color: #4A403A; /* Ensure text color matches body */
+      font-size: 0.95em;
+      margin-top: 2em;
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInText {
+      to { opacity: 1; }
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes fadeSlideUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Live Independently. Age with Confidence.</h1>
+    <p>Empowering older adults to live safely and stay socially connected from the comfort of their own homes.</p>
+  </header>
+
+  <section class="hero">
+    <img src="s.jpg" alt="Hero image representing the solution" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"> <!-- Updated path and style consistency -->
+  </section>
+
+  <section class="problem-statement">
+    <h2>The Challenge</h2>
+    <p>Many older adults wish to maintain their independence by living in their own homes (aging in place). However, concerns about safety, potential isolation, and managing daily health needs can create significant barriers for both seniors and their families. Traditional solutions often lack integration or are difficult for non-tech-savvy individuals to use effectively.</p>
+  </section>
+
+
+  <section class="benefit-summary">
+    <h2>Why This Matters</h2>
+    <p>Aging in place, surrounded by familiar comforts, is deeply important for emotional well-being and maintaining a sense of self. Our solution directly supports this by:</p>
+    <ul>
+      <li><strong>Reducing Isolation:</strong> Loneliness can significantly impact health. Easy connection tools help maintain vital social ties.</li>
+      <li><strong>Promoting Autonomy:</strong> Giving seniors control over their daily routines and social interactions fosters dignity and independence.</li>
+      <li><strong>Enhancing Safety & Security:</strong> Proactive monitoring and quick emergency access provide a crucial safety net, reducing risks associated with living alone.</li>
+      <li><strong>Supporting Families:</strong> Offering peace of mind to family members, knowing their loved ones are safe, connected, and well-supported even from a distance.</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Interested in Learning More?</h2>
+    <p>Discover how our integrated solution can support independent living. Explore partnership opportunities or inquire about pilot program participation.</p>
+    <a href="#contact">Request Information</a> <!-- Changed text and link target -->
+  </section>
+
+  <section class="features">
+    <h2>Key Benefits</h2>
+    <ul>
+      <li><strong>Safety First:</strong> 24/7 emergency response and in-home monitoring</li>
+      <li><strong>Stay Connected:</strong> Easy video calls and messaging with loved ones</li>
+      <li><strong>Health Support:</strong> Medication and wellness reminders</li>
+      <li><strong>User-Friendly:</strong> Designed with seniors in mind—simple, intuitive, dignified</li>
+      <li><strong>Mobile Access:</strong> Support on the go for families and caregivers</li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h2>What People Are Saying</h2>
+    <p>"I never thought I’d feel this independent again. I manage my day, chat with my daughter, and join community events—all from my home." <em>– Margaret, 74</em></p>
+    <p>"This solution has given my mother the freedom she deserves—and me, peace of mind." <em>– David, Family Member</em></p>
+  </section>
+
+  <footer>
+    &copy; 2025 [Your Name/Project Name - Deakin University SITXXX] | IT Innovation & Entrepreneurship Assignment
+  </footer>
+</body>
+</html>
